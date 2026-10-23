@@ -27,7 +27,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                bat '"C:\\Users\\Susrit\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin\\docker.exe" build -t devops-cicd-app:jenkins-build1 "E:\\devops-cicd-app"'
+                bat '"C:\\Users\\Susrit\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin\\docker.exe" build -t devops-cicd-app:jenkins-build1 .'
             }
         }
 
